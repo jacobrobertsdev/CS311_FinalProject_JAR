@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Unit Converter</h1>
+    </header>
+    <main>
+        <form class="user-input">
+
+            <fieldset class="number-input">
+                <label for="input">Enter a number:</label>
+                <input type="number" id="input" class="unit-input" placeholder="Enter a number..." required>
+            </fieldset>
+
+            <fieldset class="conversion-options">
+                <legend align="left">Unit Conversion Options:</legend>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="meters-to-feet" id="meters-to-feet" />
+                    <label for="meters-to-feet">Meters to Feet</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="feet-to-meters" id="feet-to-meters" />
+                    <label for="feet-to-meters">Feet to Meters</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="km-to-mi" id="km-to-mi" />
+                    <label for="km-to-mi">Kilometers to Miles</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="mi-to-km" id="mi-to-km" />
+                    <label for="mi-to-km">Miles to Kilometers</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="C-to-F" id="C-to-F" />
+                    <label for="C-to-F">Celsius to Fahrenheit</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="F-to-C" id="F-to-C" />
+                    <label for="F-to-C">Fahrenheit to Celsius</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="kg-to-lbs" id="kg-to-lbs" />
+                    <label for="kg-to-lbs">Kilograms to Pounds</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="lbs-to-kg" id="lbs-to-kg" />
+                    <label for="lbs-to-kg">Pounds to Kilograms</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="grams-to-oz" id="grams-to-oz" />
+                    <label for="grams-to-oz">Grams to Ounces</label>
+                </div>
+
+                <div class="radio-item">
+                    <input type="radio" name="unit" value="oz-to-grams" id="oz-to-grams" />
+                    <label for="oz-to-grams">Ounces to Grams</label>
+                </div>
+
+            </fieldset>
+        </form>
+
+        <section class="output">
+            <h4>Results:</h4>
+            <p class="result-display">Complete the form to display results.</p>
+        </section>
+    </main>
+
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
